@@ -1,0 +1,78 @@
+<h4><small>DATOS SOLICITANTE</small></h4>
+<hr>
+<form (ngSubmit)="guardar()" novalidate="">
+
+    <div>
+
+        <div class="form-group row">
+            <label class="col-2 col-form-label">FECHA SOLICITUD</label>
+            <div class="col-8">
+
+                <input class="form-control" type="date" placeholder="FECHA SOLICITUD" name="nombre" ngModel required>
+            </div>
+        </div>
+
+        <div class="form-group row">
+            <label class="col-2 col-form-label">FECHA PROGRAMADA</label>
+            <div class="col-8">
+
+                <input class="form-control" type="date" placeholder="FECHA PROGRAMADA" name="nombre" ngModel required>
+            </div>
+        </div>
+
+
+        <div class="form-group row">
+            <label class="col-2 col-form-label">LABORATORIO</label>
+            <div class="col-8">
+
+                <input class="form-control" type="text" placeholder="LABORATORIO" name="nombre" ngModel required>
+            </div>
+        </div>
+
+        <div class="form-group row">
+            <label class="col-2 col-form-label">ASIGNATURA</label>
+            <div class="col-8">
+
+                <input class="form-control" type="text" placeholder="ASIGNATURA">
+            </div>
+        </div>
+
+
+        <div class="form-group row">
+            <label class="col-2 col-form-label">DOCENTE</label>
+            <div class="col-8">
+
+                <input class="form-control" type="text" placeholder="DOCENTE">
+            </div>
+        </div>
+
+    </div>
+
+    <div class="form-group row">
+        <label class="col-2 col-form-label">CORREO</label>
+        <div class="col-md-8">
+
+            <input class="form-control" type="email" placeholder="CORREO ELECTRÓNICO">
+        </div>
+    </div>
+
+    <div class="form-group row">
+        <label class="col-2 col-form-label">NOMBRE DE LA PRACTICA</label>
+        <div class="col-md-8">
+
+            <input class="form-control" type="text" placeholder="NOMBRE DE LA PRACTICA">
+        </div>
+    </div>
+
+
+
+    <div class="form-group row">
+        <label class="col-2 col-form-label">&nbsp;</label>
+        <div class="input-group col-md-8">
+            <button type="submit" class="btn btn-outline-primary">
+        Guardar
+      </button>
+        </div>
+    </div>
+
+</form>
